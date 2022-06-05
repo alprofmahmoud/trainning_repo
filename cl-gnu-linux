@@ -1,19 +1,26 @@
-tty				# show tty number ! tele type terminal
-chvt num			# change tty	  ! change visoin tele
-id username 			# show id user
-date				# show date now
-cal month year			# show calander of any time
-su - username			# switch user	  ! switch user
-eject				# exit CD driver
-eject -t 			# enter CD driver on PC
-ls 				# show list contant working directory ! list
-cat path			# presenation file
-pwd				# ! print working directory 
-cd path 			# ! change directory
-cd -				# last working directory
-cd ~ 				# change home directory ~ tilde
-cd ./				# . current directory
-cd ../				# parent directory
+tty				              # show tty number ! tele type terminal
+chvt num			          # change tty	  ! change visoin tele
+id username 			      # show id user
+date				            # show date now
+cal month year			    # show calander of any time
+su - username			      # switch user	  ! switch user
+eject				            # exit CD driver
+eject -t 			          # enter CD driver on PC
+ls 				              # show list contant working directory ! list
+cat path			          # presenation file
+pwd				              # ! print working directory 
+cd path 			          # ! change directory
+cd -				            # last working directory
+cd ~ 				            # change home directory ~ tilde
+cd ./				            # . current directory
+cd ../				          # parent directory
 
-touch filename			# create new file
+touch filename    			touch filename			# create new file
+ create new file
+ # Rule number one
+ Everything as a file
+# Rule number Two 
+  gnu/linux is case senistive
+absulith path
+relative path           ./ current directory, ../parent directory
 

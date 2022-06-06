@@ -16,11 +16,11 @@ cd ./				            # . current directory
 cd ../				          # parent directory
 
 touch filename    			# create new file
- create new file
- # Rule number one
- Everything as a file
+# Rule number one
+  Everything as a file
 # Rule number Two 
   gnu/linux is case senistive
-absulith path
-relative path           ./ current directory, ../parent directory
+absoluth path
+relative path   ./  current directory, ../ parent directory
+cd ~alprofrhc           # change directory to home directory user alprofrhc
 

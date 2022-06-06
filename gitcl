@@ -18,3 +18,7 @@ git branch branchName
 git checkout branchName
 git branch -d branchName
 git branch -m newBranchName
+git diff file_name
+git config --global core.editor "editorName"
+git config --global alias.aliasName "command"
+git config --global --edite

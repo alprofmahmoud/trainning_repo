@@ -23,6 +23,8 @@ touch filename    			# create new file
 #absoluth path
 #relative path   ./  current directory, ../ parent directory
 cd ~alprofrhc           # change directory to home directory user alprofrhc
+mkdir                   # create directory
+cp file1 file2
 
 
 

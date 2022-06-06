@@ -24,3 +24,5 @@ touch filename    			# create new file
 #relative path   ./  current directory, ../ parent directory
 cd ~alprofrhc           # change directory to home directory user alprofrhc
 
+
+

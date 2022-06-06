@@ -1,0 +1,5 @@
+git config --global alias.ch checkout
+git merge origin/main
+git remote add origin git@github.com:alprofmahmoud/trainning_repo.git
+git config --global --edit
+git config --global core.editor "nvim"

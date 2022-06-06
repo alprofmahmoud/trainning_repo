@@ -20,7 +20,9 @@ touch filename    			# create new file
   Everything as a file
 # Rule number Two 
   gnu/linux is case senistive
-absoluth path
-relative path   ./  current directory, ../ parent directory
+#absoluth path
+#relative path   ./  current directory, ../ parent directory
 cd ~alprofrhc           # change directory to home directory user alprofrhc
+
+
 

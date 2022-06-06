@@ -15,7 +15,7 @@ cd ~ 				            # change home directory ~ tilde
 cd ./				            # . current directory
 cd ../				          # parent directory
 
-touch filename    			touch filename			# create new file
+touch filename    			# create new file
  create new file
  # Rule number one
  Everything as a file

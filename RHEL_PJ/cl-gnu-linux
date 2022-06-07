@@ -24,7 +24,43 @@ touch filename    			# create new file
 #relative path   ./  current directory, ../ parent directory
 cd ~alprofrhc           # change directory to home directory user alprofrhc
 mkdir                   # create directory
-cp file1 file2
+cp file1 file2          # copy files
+cp -r dir1 dir2         # copy directory -r = recursive
+mv souce distination    # move directores and files
+rm file                 # remove file
+rm -rf directory        # remove directory -r = recursive -f = force
+
+-r, --reverse
+#              reverse order while sorting
+
+       -R, --recursive
+              list subdirectories recursively
+# Shortcut in terminal
+  ctrl + a = at the begining
+  ctrl + e = at the end
+  ctrl + k = delete from cursor to end
+  ctrl + u = delete from cursor to start line
+  ctrl + d = logout
+  ctrl + l = clear 
+  ctrl + z = pause command background
+  ctrl + c = stop command
+  ctrl + s = lock screen
+  ctrl + q = unlock screen
+
+logout                  # logout
+clear                   # clear
+reboot                  # reboot
+shutdown -r now         # reboot 
+systemctl reboot        # reboot
+init 6                  # reboot
+shutdown -h now         # shutdown
+systemctl poweroff      # shutdown
+poweroff                # shutdown
+init 0                  # shutdown
+
+adduser                 # add new user
+passwd user             # change passowrd user
+
 
 
 

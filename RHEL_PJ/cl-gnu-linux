@@ -58,8 +58,36 @@ systemctl poweroff      # shutdown
 poweroff                # shutdown
 init 0                  # shutdown
 
-adduser                 # add new user
+useradd                 # add new user
 passwd user             # change passowrd user
+          #file ownership
+          #modify details user 
+groupadd                # add new groupadd
+usermod -a -g -G gname user                 # modify details user -a = append secondry group -g = primary group -G = secondry group
+/etc/passwd             # contant all users
+/etc/group              # contant all groups 
+/etc/shadow             # contant all passowrds to all users
+/etc/gshadow            # contant all passowrds to all groups
+userdel -r userName 
+groupdel groupName
+
+          # Permission
+chmod u+w fileName      # u = User or owner 
+chmod u+e fileName      # g = Group user 
+chmod u+r fileName      # o = Other 
+                        # a = all             
+                                              # As a file 
+chmod u-w fileName      # r = read            = view contant        !> cat  
+chmod u-r fileName      # w = write           = write, del, modify  !> vim, nano
+chmod u-o fileName      # x = executable file = execut file 
+                        # -R = recursive      
+                                              # As a directory
+                          r = read            = view contant        !> ls 
+                          w = write           = add and del file    !> touch 
+                          e = executable      = execut              !> cd, ls -l 
+
+chown user fileName         # change ownership to any thing
+chown user:group fileName   # change ownership, group to any thing
 
 
 

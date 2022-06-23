@@ -72,6 +72,7 @@ userdel -r userName
 groupdel groupName
 
           # Permission
+          # Symbolic Method
 chmod u+w fileName      # u = User or owner 
 chmod u+e fileName      # g = Group user 
 chmod u+r fileName      # o = Other 
@@ -88,6 +89,22 @@ chmod u-o fileName      # x = executable file = execut file
 
 chown user fileName         # change ownership to any thing
 chown user:group fileName   # change ownership, group to any thing
+          
+          # Numeric Method
+chmod 777 fileName                        # r = 4
+chmod 777 fileName                        # W = 2 
+chmod 777 fileName                        # x = 1 
+
+          # redirection
+# Descriptor
+      # Input = 0<                        # >  = Over write
+      # Output = 1<                       # >> = append 
+      # Error = 2<
+ls   > txt 
+ls  1> txt
+lss 2> txt
+ls -l 1> result.txt 2> Error.txt          # redirection the result to result.txt the Error to Error.txt 
+
 
 
 

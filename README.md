@@ -65,3 +65,22 @@ Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-i
 - [x] #739
 - [ ] \(optional) https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
+
+## قائمة المهام للمشروع
+
+- [ ] تصميم واجهة المستخدم
+- [ ] إنشاء قاعدة البيانات
+- [x] إعداد بيئة التطوير
+- [ ] كتابة الكود الأساسي
+  - [ ] إنشاء صفحة تسجيل الدخول
+  - [ ] إنشاء صفحة التسجيل
+  - [x] إعداد نظام المصادقة
+- [ ] كتابة الاختبارات
+- [ ] مراجعة الكود
+- [ ] نشر النسخة التجريبية
+
+## مهام مرتبطة بـ issues أخرى
+
+- [ ] إصلاح مشكلة الأداء #123
+- [ ] إضافة ميزة البحث #456
+- [x] تحديث المكتبات #789
